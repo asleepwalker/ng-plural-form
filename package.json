@@ -1,0 +1,29 @@
+{
+  "name": "ng-plural-form",
+  "version": "1.0.0",
+  "description": "Angular filter to display correct grammatical case for word's plural form in Slavic languages",
+  "main": "./lib/ng-plural-form.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/asleepwalker/ng-plural-form.git"
+  },
+  "keywords": [
+    "angular",
+    "filter",
+    "words",
+    "plural",
+    "form",
+    "case",
+    "slavic",
+    "russian",
+    "language"
+  ],
+  "author": "Artyom 'Sleepwalker' Fedosov <mail@asleepwalker.ru>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/asleepwalker/ng-plural-form/issues"
+  },
+  "dependencies": {
+    "angular": ">=1.0.8"
+  }
+}
