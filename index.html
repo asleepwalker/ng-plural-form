@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html ng-app="demo">
+	<head>
+		<title>ngPluralForm Demo</title>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+		<link rel="stylesheet" href="assets/demo.css">
+	</head>
+	<body>
+		<div class="wrapper">
+			<h1>ngPluralForm Demo</h1>
+			<input ng-model="number" autofocus> {{number || 0}} {{ number | pluralForm: ['штука', 'штуки', 'штук'] }}
+			<p><a class="repo" href="https://github.com/asleepwalker/ng-plural-form">&larr; Back to the repository</a></p>
+		</div>
+		<script src="vendor/angular/angular.min.js"></script>
+		<script src="assets/ng-plural-form.js"></script>
+		<script src="assets/demo.js"></script>
+	</body>
+</html>
